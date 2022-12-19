@@ -25,6 +25,10 @@ while True:
         minSize =(50,50))
     print(faces)
 
+    #Rectangle
+    for(x, y, w, h) in faces:
+        cv2.rectangle(frame,(x,y),(x + w, y + h),(0,255,0),2)
+
     #Update image
     imgbytes = cv2.imencode('.png', frame)[1].tobytes()
     window['-IMAGE-'].update(data=imgbytes)
