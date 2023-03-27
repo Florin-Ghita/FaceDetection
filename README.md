@@ -1,0 +1,2 @@
+# FaceDetection
+This is a Python application that uses computer vision and machine learning techniques to detect and count faces in images and video streams. The app utilizes a pre-trained deep learning model to identify faces in real-time, and uses algorithms to track and count the number of faces in a given frame. The code is built using popular libraries such as OpenCV and TensorFlow, and can be easily customized and extended to support additional features and use cases.
